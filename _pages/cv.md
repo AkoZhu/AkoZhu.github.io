@@ -41,21 +41,21 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Talks
+Projects
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Experience
 ======
-  <ul>{% for post in site.teaching reversed %}
+  <ul>{% for post in site.experience reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
