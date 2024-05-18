@@ -1,7 +1,7 @@
 ---
 title: "Cloud-based Distributed Search Engine"
 date: 2023-05-01
-excerpt: "Built the Cloud-based Distributed Search Engine in a team of four. <br/><img src='/images/portforlio/web-search-engine/main-page.png'>"
+excerpt: "Built the Cloud-based Distributed Search Engine in a team of four. <br/><img src='/images/portforlio/web-search-engine/main-page.png' width='60%'>"
 location: "University of Pennsylvania"
 collection: portfolio
 ---
