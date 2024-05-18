@@ -11,7 +11,7 @@ _This is a course project for CIS555 Internet & Web System(Spring 2023) at Unive
 
 Our team built a Cloud-based Distributed Search Engine, with four components using self-crafted framework, deployed on AWS EC2. The diagram is as follows:
 
-Here is the[Porject Report](/files/web-search-engine-report.pdf) and [Github Repo](https://github.com/AkoZhu/web-search-engine).
+Here is the [Porject Report](/files/web-search-engine-report.pdf) and [Github Repo](https://github.com/AkoZhu/web-search-engine).
 
 <p align="center">
   <img src="/images/portforlio/web-search-engine/diagram.gif">
