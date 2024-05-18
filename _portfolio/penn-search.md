@@ -10,6 +10,8 @@ _This is a course project for CIS553 Computer Network(Fall 2023) at University o
 
 Our team built a peer-to-peer Penn Chord Distributed Hash Table with self-built routing protocol at Network Layer, supporting the key-value pair storage.
 
+Here is the [Github Repo](https://github.com/AkoZhu/penn-search).
+
 The diagram is as follows:
 <p align="center">
   <img src="/images/portforlio/penn-chord/diagram.png">

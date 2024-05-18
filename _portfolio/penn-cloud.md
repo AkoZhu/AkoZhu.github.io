@@ -10,6 +10,8 @@ _This is a course project for CIS505 Software Systems(Spring 2024) at University
 
 Our team built a Distributed Penn Cloud Application, supporting **User Service**, **Email Service**, **Drive Service**, and **Monitor Service**.
 
+Here is the [Porject Report](/files/penn-cloud-report.pdf) and [Github Repo](https://github.com/AkoZhu/penn-cloud).
+
 The diagram is as follows:
 <p align="center">
   <img src="/images/portforlio/penn-cloud/diagram.jpeg">
@@ -55,8 +57,6 @@ The admin console is for monitoring and managing the PennCloud system. It provid
 The load balancer in PennCloud ensures efficient distribution of user requests to frontend nodes. Upon startup, frontend nodes register with the load balancer using the configure file. 
 - **Redirect Policy**: The load balancer redirect the incomming requests to available nodes based on round-robin and heal-based check. 
 - **Coordinator Duty**: The load balancer also communicates with the admin console to report the status of the frontend nodes. 
-
-Here is the report: [PorjectReport](/files/penn-cloud-report.pdf)
 
 Some screenshots of our application:
 <table>

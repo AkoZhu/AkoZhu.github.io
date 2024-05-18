@@ -11,6 +11,7 @@ _This is a course project for CIS555 Internet & Web System(Spring 2023) at Unive
 
 Our team built a Cloud-based Distributed Search Engine, with four components using self-crafted framework, deployed on AWS EC2. The diagram is as follows:
 
+Here is the[Porject Report](/files/web-search-engine-report.pdf) and [Github Repo](https://github.com/AkoZhu/web-search-engine).
 
 <p align="center">
   <img src="/images/portforlio/web-search-engine/diagram.gif">
@@ -34,9 +35,6 @@ The **PageRanker** componet calculates the importance of each page based on the 
 
 ## Frontend
 The frontend of our search engine is designed to be user-friendly and efficient, featuring a clean and responsive interface. It supports advanced features like spellcheck, using the Bing Spell Check API to suggest the correction for misspelled queries, and infinite scroll to dynamically loads more reshe user scrolls down the page. The frontend communicats with the backend to retrieve search results, which are ranked based on TF/IDF and PageRank scores. This combination ensure that the most relevant and authoritaive pages are presented to the user. 
-
-
-Here is the project report: [PorjectReport](/files/web-search-engine-report.pdf)
 
 Some screenshots of our search engine:
 
