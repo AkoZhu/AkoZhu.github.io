@@ -1,7 +1,7 @@
 ---
 title: "Penn Cloud"
 date: 2024-05-09
-excerpt: "Built the Distributed Penn Cloud in a team of four. <br/><img src='/images/portforlio/web-search-engine/main-page.png'>"
+excerpt: "Built the Distributed Penn Cloud in a team of four. <br/><img src='/images/portforlio/penn-cloud/penn-cloud-screenshots/mainpage.png'>"
 location: "University of Pennsylvania"
 collection: portfolio
 ---
