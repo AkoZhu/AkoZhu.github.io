@@ -21,7 +21,7 @@ repository               : "AkoZhu/AkoZhu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/main-page/avatar.png"
   name             : "Xuanbiao Zhu"
   pronouns         : # example: "she/her"  
   bio              : "A passionate software engineer, interested in Backend Development, Distributed System and Machine Learning"
