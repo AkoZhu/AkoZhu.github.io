@@ -1,7 +1,7 @@
 ---
 title: "Predicting Diabetic Readmissions with Machine Learning/Deep Learning Models"
 date: 2023-05-01
-excerpt: "Predict Hospital Readmission for Diabitic Patients with Machine Learning Model and Deep Learning Model in a team of three. <br/><img src='/images/portforlio/diabetic-readmission-prediction/diagram.png' width='90%'>"
+excerpt: "Predict Hospital Readmission for Diabitic Patients with Machine Learning Model and Deep Learning Model in a team of three. <br/><img src='/images/portforlio/diabetic-readmission-prediction/diagram.png' width='70%'>"
 location: "University of Pennsylvania"
 collection: portfolio
 ---
