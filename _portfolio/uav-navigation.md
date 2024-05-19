@@ -1,7 +1,7 @@
 ---
 title: "Autonomous UAV Navigation Using Sample-Based and Reinforcement Learning Methods"
 date: 2022-05-05
-excerpt: "Develop a robust framework for autonomous UAV navigation using both sample-based methods and reinforcement learning techniques.in a team of three. <br/><img src='/images/portforlio/uav/diagram.png' width='100%'>"
+excerpt: "Develop a robust framework for autonomous UAV navigation using both sample-based methods and reinforcement learning techniques.in a team of three. <br/><img src='/images/portforlio/uav/diagram.png' width='70%'>"
 location: "University of Pennsylvania"
 collection: portfolio
 ---
