@@ -1,5 +1,5 @@
 ---
-title: "Webmail and Chat system"
+title: "Webmail and Chat System"
 date: 2024-03-09
 excerpt: "Built the distributed webmail system and chat system. <br/><img src='/images/portforlio/webmail-chat-server/webmail-diagram.png' width='60%'>"
 location: "University of Pennsylvania"
