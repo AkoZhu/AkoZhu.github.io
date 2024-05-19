@@ -13,7 +13,7 @@ Hello! My name is Xuanbiao Zhu, and I am currently pursuing a Master of Engineer
 # Previous work
 Throughout my academic and professional journey, I have worked on various exciting projects related to **Distributed System**, **Machine Leaning and Deep Learning**. 
 
-Please check my Portforlio to see details!
+Please check my Portfolio to see details!
 ## Distributed System
 As for Distributed System, I developed to a **Cloud-based Distributed Search Engine** with self-built framework and four high-level components(Crawler, Indexer, Ranker, and Frontend), utilizing a master-slave architecture, consistent hashing for data sharding, and advanced data analytics inspired by Apache Spark, thus successfully crawling and processing 1 million+ web pages.
 
