@@ -10,7 +10,7 @@ _This is a LLM project in Tencent._
 
 I rebuilt the 124M GPT-2 model using the same tokenizer as OpenAI. I incorporated distributed data parallel (DDP), gradient accumulation, and various other training techniques to accelerate training and optimize it for the hyperparameters of GPT-2 and GPT-3. As a result, the validation accuracy achieved on the well-known HellaSwag validation dataset was 0.31, which is an improvement over the 0.29 achieved by the OpenAI 124M GPT-2.
 
-Here is the [Github Repo]("https://github.com/AkoZhu/nanogpt").
+Here is the [Github Repo](https://github.com/AkoZhu/nanogpt).
 
 Here is the inference of my nanoGPT:
 ```
@@ -22,7 +22,7 @@ Here is the inference of my nanoGPT:
 ```
 
 # Architecture
-Our Model architecture is almost the same as [GPT-2]("https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf").
+Our Model architecture is almost the same as [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf).
 
 The GPT model is decoder model, which means that it composites only embedding layer and decoder. 
 
@@ -36,7 +36,7 @@ Here is the graph:
 
 # Components 
 ## 0. Tokenizer 
-Regarding the Tokenizer, we utilize the renowned OpenAI [tiktoken]("https://github.com/openai/tiktoken"), which employs the Bytes Pair Encoding (BPE) method. This approach offers several advantages:
+Regarding the Tokenizer, we utilize the renowned OpenAI [tiktoken](https://github.com/openai/tiktoken), which employs the Bytes Pair Encoding (BPE) method. This approach offers several advantages:
 
 1. It is reversible and lossless.
 2. It effectively handles out-of-vocabulary words.
@@ -45,7 +45,7 @@ Regarding the Tokenizer, we utilize the renowned OpenAI [tiktoken]("https://gith
 Given these benefits, it is clear why BPE is the chosen method in OpenAI, and I have adopted it as well.
 
 
-| Here is my version of Bytes Pair Encoding, called [minibpe]("https://github.com/AkoZhu/minbpe")
+| Here is my version of Bytes Pair Encoding, called [minibpe](https://github.com/AkoZhu/minbpe)
 
 ## 1. Embedded Layer
 The embedded layer contains two parts, the first part is the word token embedding(wte) and word position embedding(wpe). 
@@ -69,15 +69,15 @@ The building block contains three parts:
 The head layer is a linear layer mapping to the `vocab_size`.
 
 # Training
-I train our nanoGPT at two RTX4090 with [edu_fineweb10B]("https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu") dataset using several training techniques to optimize the process. 
+I train our nanoGPT at two RTX4090 with [edu_fineweb10B](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) dataset using several training techniques to optimize the process. 
 
-## 1. [Distributed Data Parallel (DDP)]("https://pytorch.org/tutorials/intermediate/ddp_tutorial.html")
+## 1. [Distributed Data Parallel (DDP)](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
 - Two RTX 4090 working in parallel
 - Adapt the `bfloat16` to reduce the memory usage in the GPU.
 ## 2. Gradient Accumulation
 - To fit the batch size in the OpenAI GPT-2 training, I utilize the gradient accumulation.
 
-## 3. [Cosine Annealing Learning Rate]("https://paperswithcode.com/method/cosine-annealing")
+## 3. [Cosine Annealing Learning Rate](https://paperswithcode.com/method/cosine-annealing)
 - Followed the OpenAI GPT-2 training, I adapt to the Cosine Anneling Learning rate in the training process with the gradient cut-off to avoid gradient explosion.
 
 # Results 
